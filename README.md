@@ -6,4 +6,9 @@
 
 	> dot -Tjpg map.dot -o map.jpg
 
+  * sshexec is a script to semi automate ssh scenario
+
+        > ./sshexec.py <hosname> -u login -p password -P port < commands.txt
+
+
 
