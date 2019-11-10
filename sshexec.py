@@ -1,9 +1,8 @@
 #!/usr/bin/env python3 
 
 import sys
-from paramiko import *
-from dumper import dump
 import getopt
+from paramiko import *
 
 username='root'
 password=''
