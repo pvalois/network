@@ -28,7 +28,7 @@ except:
 print ("Opening ssh://%s@%s:%d" %(username,hostname,port))
 
 client = SSHClient()
-client.load_system_host_keys()
+#client.load_system_host_keys()
 client.connect(hostname, port=port, username=username, password=password, timeout=5)
 
 for line in sys.stdin:
